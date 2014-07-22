@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Joel Rivera -- Developer -- @cyraxjoe
+
+# THANKS
+
+    To all the members of Python Monterrey
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    CherryPy, Mako
+    AppEngine
+    Python
