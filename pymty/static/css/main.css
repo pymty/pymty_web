@@ -122,10 +122,30 @@ body, html{
 
 #content{
     min-height: 25rem;
+    text-align:center;
+}
+
+#welcome{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.block{
+    display: inline-block;
+    vertical-align: top;
+    padding: 1rem 2rem;
+}
+
+#twitter{
+    min-width: 20rem;
+}
+
+#meetup{
+    clear: left;
+
 }
 
 #top{
-    margin-bottom: 2rem;
     background-color: #2b5b84;
     background-image: linear-gradient(#2b5b84 10%, #1e415e 90%);
 }
@@ -176,7 +196,9 @@ footer a {
       padding: 0.5rem 0;
       margin: 0;
   }
-
+  .block{
+    padding: 0.2rem 0.5rem;
+  }
 }
 /*ipad like screen*/
 @media only screen and (min-width: 700px) and (max-width: 1024px){
