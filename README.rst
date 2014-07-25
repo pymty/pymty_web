@@ -60,6 +60,8 @@ Contribuir cambios
 De momento se prefiere centralizar la cuenta para actualizar el sitio por lo que cualquier contribución que hagas se recomienda el flujo de trabajo común
 de GitHub: clonar, modificar, push request. En caso de que seas un contribuyente frecuente se te ofrecerá el acceso para subir cambios de forma directa.
 
+Para más información de hacia donde va el sitio consulta el directorio `docs`.
+
 Notas
 -----
  * Tristemente usa Python 2.7 por que AppEngine aún no funciona con Python 3.
