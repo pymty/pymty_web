@@ -2,8 +2,6 @@
 ==================
 El árbol de contenido se presenta en varias formas dependiendo el alcance o iteración a buscar.
 
-
-
 Primera iteración
 ------------------
 :/reuniones:
@@ -28,16 +26,15 @@ Segunda iteración
 
 Reuniones
 ..........
-
 :/reuniones/historial:
    Muestra el listado de las reuniones anteriores.
+
 :/reuniones/historial/<identificador>:
    Muestra en particular lo relevante a una reunión en particular, esto puede ser estilo minuta, lista de documentos
    que se expusieron o ligas de interés para referencia al futuro.
 
 Contribuir
 ..........
-
 :/contribuir:
    Extiende al de la etapa uno mas la ligas a las subsecciones.
 
@@ -79,7 +76,6 @@ Contribuir
        - Zona de la ciudad (textarea)
        - Comentarios (textarea)
 
-
 :/contribuir/website:
    Breve descripción sobre lo que implica desarrollar el sitio web.
    Muestra un formulario con los siguientes campos:
@@ -91,7 +87,6 @@ Contribuir
 
 Comunidades
 ............
-
 :/comunidades:
    Extiende a la etapa uno, agrega un logo y liga a su sitio en conjunto con una liga para ver más detalles.
 
@@ -100,7 +95,6 @@ Comunidades
 
 Bolsa de trabajo
 ................
-
 :/trabajos:
    Muestra un header donde menciona la razón de la bolsa de trabajo, luego lo sigue
    un listado de los trabajos activos. A mi parecer el paginado no es necesario
@@ -142,10 +136,8 @@ Bolsa de trabajo
    Muestra el trabajo en particular con los campos que se capturaron previamente.
    Muestra una liga de editar a `/trabajos/editar/<id-de-trabajo>`.
 
-
 Tercera iteración
 ------------------
-
 :/reuniones/historial/<identificador>:
    Extiende a la etapa uno solo que ahora muestra una lista de documentos
    que se expusieron.
