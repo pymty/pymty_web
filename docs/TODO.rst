@@ -5,7 +5,7 @@ De momento se busca que el sitio este publico y funcional lo antes posible sin e
 
 Se ha sugerido una secuencia de iteraciones para entregar por partes y tener algo visible sin tanta elegancia.
 
-Para más información de las iteraciones revisa `docs/contenido.rst`.
+Para más información de las iteraciones revisa ``docs/contenido.rst``.
 
 Objetivos generales
 -------------------

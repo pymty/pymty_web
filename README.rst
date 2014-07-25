@@ -22,15 +22,15 @@ Cómo ejecutar el sitio
 
  - Instala el `Google Cloud SDK`_ durante la instalación selecciona el ambiente de desarrollo de Python para AppEngine.
  - Dentro de el directorio raíz del repositorio:
-    - Ejecuta el script `mkenv.sh`. De momento no tenemos una solución automática para windows.
-    - Para ejecutar en el servidor local la aplicación usa: `dev_appserver.py  --host 0.0.0.0 pymty`.
+    - Ejecuta el script ``mkenv.sh``. De momento no tenemos una solución automática para windows.
+    - Para ejecutar en el servidor local la aplicación usa: ``dev_appserver.py  --host 0.0.0.0 pymty``.
 
 Estructura general
 ------------------
 
 Plantillas
 %%%%%%%%%%
-Todo lo que refiere a HTML esta contenido en `pymty/pymty/templates` utiliza Mako_ para la manipulación de plantillas.
+Todo lo que refiere a HTML esta contenido en ``pymty/pymty/templates`` utiliza Mako_ para la manipulación de plantillas.
 La estructura esta basada en html5boilerplate_, utiliza `responsive mobile menu`_ y css directo.
 
 El sitio esta diseñado para que sea responsivo basado en media queries, no se piensa utilizar frameworks responsivos
@@ -38,7 +38,7 @@ para un sitio tan pequeño como esté, además sirve que practican su css-fu.
 
 Archivos estáticos
 %%%%%%%%%%%%%%%%%%
-Los archivos que sean entregados de forma directa por el servidor están contenidos dentro de `pymty/static/`, esto es principalmente javascript, css e imágenes.
+Los archivos que sean entregados de forma directa por el servidor están contenidos dentro de ``pymty/static/``, esto es principalmente javascript, css e imágenes.
 
 
 Controladores/Vistas Web
@@ -46,21 +46,21 @@ Controladores/Vistas Web
 El sitio utiliza CherryPy para el mapeo de URL a métodos de objetos. El enrutamiento es por `recorrido de objetos`_, el cual
 es el método más común para construir aplicaciones en CherryPy_.
 
-De momento todo esto se encuentra definido en `pymty/pymty/views/main.py` donde hace uso de el decorador
-`cherrypy.tools.mako` el cual esta definido en `pymty/pymty/cptools/makotemplates.py` este simplemente relacionada
+De momento todo esto se encuentra definido en ``pymty/pymty/views/main.py`` donde hace uso de el decorador
+``cherrypy.tools.mako`` el cual esta definido en ``pymty/pymty/cptools/makotemplates.py`` este simplemente relacionada
 plantillas con los métodos que se invocan, los cuales solamente regresan diccionarios que son usados en las plantillas.
 
 Subir cambios a AppEngine
 %%%%%%%%%%%%%%%%%%%%%%%%%
 La aplicación esta relacionada directamente a cuentas de google, por lo que implica autorizar al usuario que quiera subir la aplicación, en caso de que
-quieras subirla de forma individual puedes hacerlo con el comando `appcfg.py update pymty/`.
+quieras subirla de forma individual puedes hacerlo con el comando ``appcfg.py update pymty/``.
 
 Contribuir cambios
 -------------------
 De momento se prefiere centralizar la cuenta para actualizar el sitio por lo que cualquier contribución que hagas se recomienda el flujo de trabajo común
 de GitHub: clonar, modificar, push request. En caso de que seas un contribuyente frecuente se te ofrecerá el acceso para subir cambios de forma directa.
 
-Para más información de hacia donde va el sitio consulta el directorio `docs`.
+Para más información de hacia donde va el sitio consulta el directorio ``docs``.
 
 Notas
 -----

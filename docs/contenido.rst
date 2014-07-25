@@ -123,18 +123,18 @@ Bolsa de trabajo
 
 :/trabajos/editar/<id-de-trabajo>:
    Primero valida que exista un cookie donde esta el uuid en caso de que no este
-   redirecciona a `/trabajos/autorizar/<id-de-trabajo>`. En caso de que si este
+   redirecciona a ``/trabajos/autorizar/<id-de-trabajo>``. En caso de que si este
    muestra los campos de el formulario de agregar.
 
 :/trabajos/autorizar/<id-de-trabajo>:
    Muestra el formulario para asignar el uuid en la sesión.
    Si asigna otra que no es la correcta muestra un mensaje de error y vuelve a preguntar por el uuid.
-   En caso de que sea el correcto redirecciona a `/trabajos/editar/<id-de-trabajo>`.
+   En caso de que sea el correcto redirecciona a ``/trabajos/editar/<id-de-trabajo>``.
 
 
 :/trabajos/ver/<identificador>:
    Muestra el trabajo en particular con los campos que se capturaron previamente.
-   Muestra una liga de editar a `/trabajos/editar/<id-de-trabajo>`.
+   Muestra una liga de editar a ``/trabajos/editar/<id-de-trabajo>``.
 
 Tercera iteración
 ------------------
