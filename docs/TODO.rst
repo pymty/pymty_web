@@ -83,7 +83,7 @@ como principio sería usar metatags de descripción y titulos significativos.
 Modelos
 -------
 
-Los modelos de datos serán basados en NDB de AppEngine.
+Los modelos de datos serán basados en NDB_ de AppEngine.
 
 
 
