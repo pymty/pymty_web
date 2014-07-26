@@ -44,3 +44,50 @@ Bolsa de trabajo
 Dado que de formar recurrente ha sido una necesidad el de tener una bolsa de trabajo que
 facilite el encuentro de los empleadores en busca de programadores, surge la necesidad
 de esta sección.
+
+
+CSS
+----
+
+Mejorar estructura de css
+.........................
+Actualmente el sitio solo tiene definido el footer y header, aún no tiene una clara definición de cuales
+son los puntos de ruptura para los media queries, existen algo de definicion en el archivo de ``main.css``
+pero considero que aún esta muy caótico.
+
+Refinar la clase "block"
+........................
+Esa clase es la que se encargara de manejar la forma de presentar cada cuadro de contendio que se
+presente en el contenedor principal. De momento funciona pero es algo a considerar para el contenido
+que se vaya agregando.
+
+Definir presentación del texto
+..............................
+No se ha prestado atención a la presentación de el texto, la tipografía, tamaño y color.
+
+
+HTML
+----
+En general en ``docs/contenido.rst`` define el contenido a mostrar, se sugiere utilizar WTForms_ en caso
+de que consideren practico el asistirse para los formularios.
+
+Metadatos
+..........
+Definir metadatos de opengraph_ y una forma de generar sitemaps_.
+
+SEO
+...
+No se tienen lineamientos sobre cual sería la mejor forma para facilitar el el indexado de el sitio,
+como principio sería usar metatags de descripción y titulos significativos.
+
+Modelos
+-------
+
+Los modelos de datos serán basados en NDB de AppEngine.
+
+
+
+.. _WTForms: https://wtforms.readthedocs.org/en/latest/
+.. _opengraph: http://ogp.me/
+.. _sitemaps: http://www.sitemaps.org/
+.. _NDB: https://developers.google.com/appengine/docs/python/ndb/
