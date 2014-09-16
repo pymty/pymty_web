@@ -108,9 +108,8 @@ body, html{
 }
 
 #logo img{
-    padding: 0 2rem 1rem;
+    padding: 0 1rem 0.2rem 0.5rem;
     float: left;
-    width: 250px;
 
 }
 #container{
@@ -123,11 +122,13 @@ body, html{
 #content{
     min-height: 25rem;
     text-align:center;
+    color: #1E415E;
 }
 
 #welcome{
-    max-width: 650px;
+    max-width: 920px;
     margin: 0 auto;
+    text-align: left;
 }
 
 .block{
@@ -181,7 +182,7 @@ footer a {
 @media only screen and (max-width: 650px) {
   #top{
       padding-top: 1rem;
-      padding-bottom: 1rem;
+      padding-bottom: 0.5rem;
   }
   #logo{
       width: 100%;
@@ -213,7 +214,7 @@ footer a {
 
 @media only screen and (min-width: 1281px) {
   #top{
-      padding-top: 1rem;
+      padding-top: 0.5rem;
 
   }
   #menu {

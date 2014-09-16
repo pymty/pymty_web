@@ -70,6 +70,8 @@ Notas
  * La razón de por que no usamos bien distutils, virtualenv y las herramientas estándar de python es por la forma de montar las aplicaciones en AppEngine.
    Donde básicamente es poner todas tus dependencias en el directorio de la aplicación, ya sea directamente o con una liga simbólica.
  * La aplicación decidí hacerla para AppEngine con el fín de que fuera practicamente gratis con el tráfico esperado y de paso hacerla un poco más interesante.
+ * Para ver el directorio de lib de las herramientas de AppEngine ``"$(readlink -f $(dirname $(which  gcloud))/../lib)"``.
+
 
 .. _`Google Cloud SDK`: https://developers.google.com/cloud/sdk/
 .. _Mako: http://www.makotemplates.org/
