@@ -121,15 +121,21 @@ body, html{
 
 #content{
     min-height: 25rem;
-    text-align:center;
+    text-align: left;
     color: #1E415E;
 }
+#banners {
+    text-align: center;
+}
+
+
 
 #welcome{
     max-width: 920px;
     margin: 0 auto;
     text-align: left;
 }
+
 
 .block{
     display: inline-block;
@@ -176,9 +182,20 @@ footer a {
     text-decoration: none;
 }
 
+.sec-title{
+    width: 100%;
+    margin-top: 0;
+    text-align: left;
+    padding-top: 0.5rem;
+    border-bottom: 1px solid #D8DBDE;
+}
 
+dl.pretty-defs dt{
+    font-weight: bold;
 
-/* small screen */
+}
+
+/* small screens */
 @media only screen and (max-width: 650px) {
   #top{
       padding-top: 1rem;
@@ -200,7 +217,12 @@ footer a {
   .block{
     padding: 0.2rem 0.5rem;
   }
+  .small-padd {
+    padding: 0.2rem 0.5rem;
+  }
+
 }
+
 /*ipad like screen*/
 @media only screen and (min-width: 700px) and (max-width: 1024px){
     #logo img{
@@ -211,7 +233,7 @@ footer a {
     }
 }
 
-
+/* big screens */
 @media only screen and (min-width: 1281px) {
   #top{
       padding-top: 0.5rem;
@@ -220,6 +242,19 @@ footer a {
   #menu {
       padding-top: 2rem;
   }
+  .padded {
+      padding: 2rem 10%;
+      text-align: left;
+  }
+  #content {
+      padding: 0 10%;
+      margin-bottom: 2em;
+  }
+
+  .block{
+      max-width: 40%;
+  }
+
 }
 
 
