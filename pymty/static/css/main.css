@@ -98,7 +98,6 @@ textarea {
    ========================================================================== */
 
 
-
 body, html{
     padding: 0;
     margin: 0;
@@ -107,11 +106,11 @@ body, html{
     background-color: #FAFAFA;
 }
 
-#logo img{
-    padding: 0 1rem 0.2rem 0.5rem;
-    float: left;
-
+header {
+    text-align: center;
 }
+
+
 #container{
     height: 100%;
     width: 100%;
@@ -141,6 +140,7 @@ body, html{
     display: inline-block;
     vertical-align: top;
     padding: 1rem 2rem;
+    max-width: 40%;
 }
 
 #twitter{
@@ -157,9 +157,17 @@ body, html{
     background-image: linear-gradient(#2b5b84 10%, #1e415e 90%);
 }
 
+#menu{
+    display: inline-block;
+}
 
-#menuwrapper{
+#logo {
+    display: inline-block;
+}
 
+#logo img{
+    padding: 0 1rem 0.2rem 0.5rem;
+    float: left;
 }
 
 #bottom{
@@ -181,6 +189,21 @@ footer a {
     margin-left: 4rem;
     text-decoration: none;
 }
+
+.padded {
+    padding: 2rem 10%;
+    text-align: left;
+}
+.small-padd {
+    padding: 0.2rem 0.5rem;
+}
+
+#content {
+    padding: 0 5%;
+    margin-bottom: 2em;
+}
+
+
 
 .sec-title{
     width: 100%;
@@ -214,13 +237,11 @@ dl.pretty-defs dt{
       padding: 0.5rem 0;
       margin: 0;
   }
+
   .block{
     padding: 0.2rem 0.5rem;
+    max-width: none;
   }
-  .small-padd {
-    padding: 0.2rem 0.5rem;
-  }
-
 }
 
 /*ipad like screen*/
@@ -242,17 +263,9 @@ dl.pretty-defs dt{
   #menu {
       padding-top: 2rem;
   }
-  .padded {
-      padding: 2rem 10%;
-      text-align: left;
-  }
   #content {
       padding: 0 10%;
       margin-bottom: 2em;
-  }
-
-  .block{
-      max-width: 40%;
   }
 
 }
