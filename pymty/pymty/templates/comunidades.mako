@@ -7,13 +7,13 @@
     parte de los otros cientos de grupos de Python alrededor del mundo.
   </p>
   <p>
-    El grupo mantiene una postura abierta a todo los demás grupos que
-    al igual que este realizan reuniones y contribuciones a la comunidad
+    El grupo mantiene una postura abierta a todos los demás que
+    al igual que éste, realizan reuniones y contribuciones a la comunidad
     desde su alcance, perspectiva y especialidad.
   </p>
   <p>
     Como forma que ayudar a la difusión de los otros grupos aquí están las
-    ligas a otras comunidades periféricas afines a este grupo.
+    ligas a otras comunidades periféricas afines a al grupo.
   </p>
 </div>
 

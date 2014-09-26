@@ -16,7 +16,16 @@
 <div class="block">
   <h3>Noticias</h3>
   <ul>
-    <li>Tenemos página nueva.</li>
+    <li>
+      Se ha agendado la reunión "Introducción a Django" para el 9 de Octubre.
+    </li>
+    <li>
+      ¡Tenemos nueva página!
+    </li>
+    <li>
+      Estamos buscando lugares para las próximas sesiones. ¿Te gustaría contribuir?
+      avisanos a <a href="mailto:contacto@pymty.org">contacto@pymty.org</a> o  en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
+    </li>
   </ul>
 </div>
 
