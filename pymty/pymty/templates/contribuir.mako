@@ -17,11 +17,11 @@
   </p>
 
   <ul>
-    <li>Dar una platica</li>
+    <li>Da una platica</li>
     <li>Organiza un curso</li>
     <li>Asiste a las <a href="/reuniones#OfficeHours">Office Hours</a>.</li>
     <li>Ofrece un lugar para llevar a cabo una reunión</li>
-    <li>Coordinar eventos</li>
+    <li>Coordina un evento</li>
     <li>Mejorar el código de alguno de los <a href="http://github.com/pymty">proyectos del grupo</a>.
     </li>
   </ul>

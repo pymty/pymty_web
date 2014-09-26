@@ -4,16 +4,13 @@ import cherrypy as cp
 class Main(object):
     def __init__(self):
         self.trabajos = JobBoard()
+        self.reuniones = Meetings()
 
     @cp.expose
     @cp.tools.mako(fname="index.mako")
     def index(self):
         return {}
 
-    @cp.expose
-    @cp.tools.mako(fname="reuniones.mako")
-    def reuniones(self):
-        return {}
 
     @cp.expose
     @cp.tools.mako(fname="comunidades.mako")
@@ -29,6 +26,18 @@ class Main(object):
     @cp.expose
     @cp.tools.mako(fname="documentacion.mako")
     def documentacion(self):
+        return {}
+
+class Meetings(object):
+
+    @cp.expose
+    @cp.tools.mako(fname="reuniones.mako")
+    def index(self):
+        return {}
+
+    @cp.expose(['circulo-virtuoso',])
+    @cp.tools.mako(fname="reuniones_cv.mako")
+    def circulo_virtuoso(self):
         return {}
 
 

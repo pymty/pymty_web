@@ -39,7 +39,7 @@
       estas reuniones están diseñadas para tutorear uno a uno sobre problemas
       específicos o simplemente trabajar en algo relacionado.
     </dd>
-    <dt>Circulo Virtuoso</dt>
+    <dt>Círculo Virtuoso</dt>
     <dd>
       Una serie de platicas en donde se expone algún tema relacionado a la programación con la peculiaridad que recién se aprende,
       esto delimitado en un tiempo máximo que se especifica con antelación.

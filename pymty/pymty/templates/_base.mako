@@ -61,7 +61,7 @@
       <div id="bottom">
         <footer>
           <a href="http://wiki.pymty.org/">Wiki</a>
-          <a href="https://www.facebook.com/groups/1443697139228544/">Facebook</a>
+          <a href="https://www.facebook.com/groups/pymty/">Facebook</a>
           <a href="http://twitter.com/pymty">Twitter</a>
           <a href="http://webchat.freenode.net/?channels=pymty">IRC</a>
           <a href="https://groups.google.com/forum/#!forum/pymty">Google group</a>
