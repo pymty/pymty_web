@@ -38,7 +38,7 @@
   <h3>Desarrollo de software</h3>
   <ul>
     <li>
-      <a href="http://sidengo.com/jumpstart">Jumpstar Monterrey</a>
+      <a href="http://sidengo.com/jumpstart">Jumpstart Monterrey</a>
     </li>
     <li>
       <a href="http://www.meetup.com/Javascript-Monterrey/">Javascript Monterrey</a>
