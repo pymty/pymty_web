@@ -21,6 +21,8 @@ Cómo ejecutar el sitio
 ----------------------
 
  - Instala el `Google Cloud SDK`_ durante la instalación selecciona el ambiente de desarrollo de Python para AppEngine.
+ - El comando para instalar de forma directa el sdk de appengine para python es:
+     ``gcloud components update gae-python``
  - Dentro de el directorio raíz del repositorio:
     - Ejecuta el script ``mkenv.sh``. De momento no tenemos una solución automática para windows.
     - Para ejecutar en el servidor local la aplicación usa: ``dev_appserver.py  --host 0.0.0.0 pymty``.
