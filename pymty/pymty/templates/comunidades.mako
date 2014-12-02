@@ -62,9 +62,6 @@
     <li>
       <a href="http://hsmty.org/">Hackerspace Monterrey</a>
     </li>
-    <li>
-      <a href="http://www.meetup.com/Open-Hackers/">Open Hackers</a>
-    </li>
   </ul>
   <h3>Emprendedurismo</h3>
   <ul>
@@ -86,6 +83,9 @@
 <div class="block">
   <h3>Grupos de Usuarios de Linux</h3>
   <ul>
+    <li>
+      <a href="https://www.facebook.com/groups/738498842901074/">Linux Nuevo León</a>
+    </li>
     <li>
       <a href="https://www.facebook.com/groups/gulmon/">GULMon</a>
     </li>

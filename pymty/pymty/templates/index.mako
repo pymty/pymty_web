@@ -1,4 +1,5 @@
 <%inherit file="_base.mako" />
+
 <div id="welcome" class="block">
   <h2>Bienvenido</h2>
   <p>Somos la comunidad de Python en Monterrey.</p>
@@ -10,21 +11,18 @@
 </div>
 
 <div class="block">
-  <iframe style="float: right;" width="320" height="350" src="http://meetu.ps/2s2kpK" frameborder="0"></iframe>
+  <iframe style="float: right;" width="320" height="380" src="http://meetu.ps/2s2kpK" frameborder="0"></iframe>
 </div>
 
 <div class="block">
   <h3>Noticias</h3>
   <ul>
     <li>
-      Se ha agendado la reunión "Introducción a Django" para el 9 de Octubre.
-    </li>
-    <li>
-      ¡Tenemos nueva página!
+      No te pierdas la próxima reunión esté 4 y 5 de diciembre: <a href="http://j.mp/1FxXjYh">Bioinformática y Genética: conceptos y aplicaciones.</a>
     </li>
     <li>
       Estamos buscando lugares para las próximas sesiones. ¿Te gustaría contribuir?
-      avisanos a <a href="mailto:contacto@pymty.org">contacto@pymty.org</a> o  en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
+      Av&iacute;sanos a <a href="mailto:contacto@pymty.org">contacto@pymty.org</a> o  en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
     </li>
   </ul>
 </div>
@@ -70,7 +68,7 @@
   en la ciudad. Revisa la sección  de <a href="/comunidades">Comunidades</a>
   para ver los detalles de otras comunidades similares a está
   pero con especialidades distintas. ¿Conoces alguna que no esté?
-  No dudes en avisarnos en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
+  No dudes en informarnos en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
 </div>
 
 <div id="twitter" class="block">

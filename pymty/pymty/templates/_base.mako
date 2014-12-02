@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+% if title:
+    <title>${title} - Python Monterrey</title>
+% else:
     <title>Python Monterrey</title>
+% endif
     <meta name="description" content="Grupo de usuarios de Python en Monterrey">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
 

@@ -15,30 +15,29 @@ class Main(object):
     @cp.expose
     @cp.tools.mako(fname="comunidades.mako")
     def comunidades(self):
-        return {}
-
+        return {'title': 'Comunidades'}
 
     @cp.expose
     @cp.tools.mako(fname="contribuir.mako")
     def contribuir(self):
-        return {}
+        return {'title': 'Contribuir'}
 
     @cp.expose
     @cp.tools.mako(fname="documentacion.mako")
     def documentacion(self):
-        return {}
+        return {'title': 'Documentaci&oacute;n'}
 
 class Meetings(object):
 
     @cp.expose
     @cp.tools.mako(fname="reuniones.mako")
     def index(self):
-        return {}
+        return {'title': 'Reuniones'}
 
     @cp.expose(['circulo-virtuoso',])
     @cp.tools.mako(fname="reuniones_cv.mako")
     def circulo_virtuoso(self):
-        return {}
+        return {'title': 'C&iacute;rculo Virtuoso - Reuniones'}
 
 
 class JobBoard(object):
@@ -46,4 +45,4 @@ class JobBoard(object):
     @cp.expose
     @cp.tools.mako(fname="trabajos.mako")
     def index(self):
-        return {}
+        return {'title': 'Bolsa de trabajo'}
