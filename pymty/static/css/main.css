@@ -250,18 +250,38 @@ dl.pretty-defs dt{
         float: none;
     }
     #menu{
-        padding-bottom: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
     }
 }
 
-/* big screens */
+
+/* Average screen */
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+    #logo img{
+        float: none;
+    }
+    #menu{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    #top{
+        padding-top: 1rem;
+    }
+
+}
+
+
+
+
+/* Big screen */
 @media only screen and (min-width: 1281px) {
   #top{
       padding-top: 0.5rem;
 
   }
   #menu {
-      padding-top: 2rem;
+      padding-top: 1rem;
   }
   #content {
       padding: 0 10%;
@@ -270,19 +290,6 @@ dl.pretty-defs dt{
 
 }
 
-
-@media only screen and (min-width: 700px) and (max-width: 1280px){
-    #logo img{
-        float: none;
-    }
-    #menu{
-        padding-bottom: 1rem;
-    }
-    #top{
-        padding-top: 0.5rem;
-    }
-
-}
 
 
 

@@ -29,14 +29,14 @@
         Python Cabal <small>&laquo;Guadalajara&raquo;</small>
       </a>
     </li>
-    <li>
-      <a href="https://www.facebook.com/groups/PythonTabasco/">Python Tabasco</a>
-    </li>
   </ul>
 
 
   <h3>Desarrollo de software</h3>
   <ul>
+    <li>
+      <a href="https://www.facebook.com/groups/883425011685153/">Code Crafters</a>
+    </li>
     <li>
       <a href="http://sidengo.com/jumpstart">Jumpstart Monterrey</a>
     </li>

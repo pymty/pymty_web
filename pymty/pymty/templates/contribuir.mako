@@ -3,31 +3,26 @@
 
 <div class="small-padd">
   <p>
-    El grupo está basado en su comunidad y las contribuciones que esta hace,
-    tratando en todo momento de alinear intereses y no caer en dependencia.
+    A reserva de los patrocionadores del grupo. PyMTY se basa en su comunidad y las contribuciones que ésta hace.
   </p>
   <p>
-    En gran medida, el grupo es de ayuda para empresas, estudiantes y profesionales.
-    Si tienes algo de tiempo o quieres hacer algo de tiempo como por arte de magia
-    contribuye al grupo en la medida de tus posibilidades.
+    Si deseas dedicar algo de tiempo no dudes en acercarte al grupo para contribuir en la medida de tus posibilidades.
   </p>
   <p>
-    Como forma de orientar un poco los esfuerzos estos son algunas de las
-    formas en que puedes ayudar:
+    Éstas son algunas actividades sugeridas como forma de orientar un poco los esfuerzos:
   </p>
 
   <ul>
-    <li>Da una platica</li>
-    <li>Organiza un curso</li>
-    <li>Asiste a las <a href="/reuniones#OfficeHours">Office Hours</a>.</li>
-    <li>Ofrece un lugar para llevar a cabo una reunión</li>
-    <li>Coordina un evento</li>
+    <li>Dar una platica</li>
+    <li>Organizar un curso</li>
+    <li>Asistir a las <a href="/reuniones#OfficeHours">Office Hours</a>.</li>
+    <li>Ofrecer un lugar para llevar a cabo una reunión</li>
+    <li>Coordinar un evento</li>
     <li>Mejorar el código de alguno de los <a href="http://github.com/pymty">proyectos del grupo</a>.
     </li>
   </ul>
 
-  <p>Estas son solo algunas ideas, si tienes alguna otra idea o forma de poder
-    contribuir al grupo no dudes en mencionarla en alguna de nuestras reuniones
+  <p>Si tienes alguna otra idea o forma de poder contribuir al grupo no dudes en mencionarlo en alguna reunión
     o en la <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
   </p>
 </div>

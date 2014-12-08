@@ -51,7 +51,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 
 .rmm .rmm-main-list li {
 	display:inline;
-	padding:padding:0px;
+	padding:0px;
 	margin:0px !important;
 }
 .rmm-toggled {
@@ -169,7 +169,8 @@ border-bottom-right-radius: 6px;
 
 .rmm.sapphire .rmm-main-list li a {
 	display:inline-block;
-	padding:8px 30px 8px 30px;
+/*	padding: 8px 16px;*/
+	padding: 8px 30px;
 	margin:0px -3px 0px -3px;
 	font-size:15px;
 	text-shadow:1px 1px 1px #3e587b;
@@ -256,7 +257,7 @@ border-bottom-right-radius: 5px;
 	border-bottom:1px solid #3c5779;
 	border-top:1px solid #3c5779;
 }
-.rmm.sapphire .rmm-toggled ul li:first-child a { 
+.rmm.sapphire .rmm-toggled ul li:first-child a {
 	border-top:1px solid #3c5779 !important;
 }
 

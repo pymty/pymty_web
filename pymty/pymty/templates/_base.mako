@@ -52,9 +52,16 @@
                   Comunidades
                 </a>
               </li>
-              <li>
-                <a href="/trabajos">Bolsa de trabajo</a>
+<!--              <li>
+                <a href="/patrocinadores">Patrocinadores</a>
               </li>
+-->
+              <li>
+                <a href="/trabajos">Trabajos</a>
+              </li>
+<!--              <li>
+                <a href="/contacto">Contacto</a>
+              </li>-->
             </ul>
           </div>
         </header>
@@ -74,11 +81,8 @@
         </footer>
       </div>
     </div>
-
-
     <script src="/static/js/plugins.js"></script>
     <script src="/static/js/main.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

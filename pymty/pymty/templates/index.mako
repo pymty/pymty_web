@@ -18,11 +18,8 @@
   <h3>Noticias</h3>
   <ul>
     <li>
-      No te pierdas la próxima reunión esté 4 y 5 de diciembre: <a href="http://j.mp/1FxXjYh">Bioinformática y Genética: conceptos y aplicaciones.</a>
-    </li>
-    <li>
-      Estamos buscando lugares para las próximas sesiones. ¿Te gustaría contribuir?
-      Av&iacute;sanos a <a href="mailto:contacto@pymty.org">contacto@pymty.org</a> o  en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
+      Estamos buscando lugares para las próximas sesiones. <br>
+      ¿Te gustaría contribuir? Av&iacute;sanos a <a href="mailto:contacto@pymty.org">contacto@pymty.org</a> o  en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
     </li>
   </ul>
 </div>
