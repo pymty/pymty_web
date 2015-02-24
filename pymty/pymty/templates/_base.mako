@@ -10,17 +10,13 @@
 % endif
     <meta name="description" content="Grupo de usuarios de Python en Monterrey">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
-
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
     <link rel="stylesheet" href="/static/css/normalize.css">
     <link rel="stylesheet" href="/static/css/main.css">
     <script src="/static/js/vendor/modernizr-2.6.2.min.js"></script>
     <link rel="stylesheet" href="/static/rmm-css/responsivemobilemenu.css" type="text/css"/>
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/static/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-      <script src="/static/rmm-js/responsivemobilemenu.js"></script>
+    <script src="/static/rmm-js/responsivemobilemenu.js"></script>
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -52,16 +48,12 @@
                   Comunidades
                 </a>
               </li>
-<!--              <li>
-                <a href="/patrocinadores">Patrocinadores</a>
-              </li>
--->
               <li>
-                <a href="/trabajos">Trabajos</a>
+                <a href="/trabajos">Bolsa de trabajo</a>
               </li>
-<!--              <li>
-                <a href="/contacto">Contacto</a>
-              </li>-->
+              <li>
+                <a href="http://blog.pymty.org/" target="_blank"> Blog </a>
+              </li>
             </ul>
           </div>
         </header>

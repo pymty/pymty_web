@@ -269,6 +269,9 @@ dl.pretty-defs dt{
         padding-top: 1rem;
     }
 
+    .meetup {
+        width: 410px;
+    }
 }
 
 
@@ -286,6 +289,9 @@ dl.pretty-defs dt{
   #content {
       padding: 0 10%;
       margin-bottom: 2em;
+  }
+  .meetup {
+      width: 410px;
   }
 
 }
@@ -409,7 +415,7 @@ dl.pretty-defs dt{
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+       (min-resolution: 120dppx) {
     /* Style adjustments for high resolution devices */
 }
 

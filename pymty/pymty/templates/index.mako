@@ -10,18 +10,13 @@
   </p>
 </div>
 
-<div class="block">
-  <iframe style="float: right;" width="320" height="400" src="http://meetu.ps/2s2kpK" frameborder="0"></iframe>
+<div class="block meetup">
+  <iframe style="float: right;" width="320" height="340" src="http://meetu.ps/2s2kpK" frameborder="0"></iframe>
 </div>
 
-<div class="block">
-  <h3>Noticias</h3>
-  <ul>
-    <li>
-      Estamos buscando lugares para las próximas sesiones. <br>
-      ¿Te gustaría contribuir? Av&iacute;sanos a <a href="mailto:contacto@pymty.org">contacto@pymty.org</a> o  en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
-    </li>
-  </ul>
+<div id="twitter" class="block">
+  <a class="twitter-timeline" href="https://twitter.com/pymty" data-widget-id="490311414309871616">Tweets by @pymty</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 
 
@@ -66,9 +61,4 @@
   para ver los detalles de otras comunidades similares a está
   pero con especialidades distintas. ¿Conoces alguna que no esté?
   No dudes en informarnos en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
-</div>
-
-<div id="twitter" class="block">
-  <a class="twitter-timeline" href="https://twitter.com/pymty" data-widget-id="490311414309871616">Tweets by @pymty</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
