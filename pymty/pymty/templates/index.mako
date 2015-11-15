@@ -11,7 +11,7 @@
 </div>
 
 <div class="block meetup">
-  <iframe style="float: right;" width="320" height="340" src="http://meetu.ps/2s2kpK" frameborder="0"></iframe>
+    <iframe style="float: right;" width="320" height="440" src="http://meetu.ps/2QKBcJ" frameborder="0"></iframe>
 </div>
 
 <div id="twitter" class="block">
