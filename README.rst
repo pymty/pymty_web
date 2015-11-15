@@ -22,10 +22,10 @@ Python 2.7, Mako_, CherryPy_ y el `Google App Engine SDK`_.
 Cómo ejecutar el sitio
 ======================
 
- - Instalar `Google App Engine SDK`_  para *Python*
- - Dentro de el directorio raíz del repositorio:
-    - Ejecuta el script ``mkenv.sh``. De momento no tenemos una solución automática para windows.
-    - Para ejecutar en el servidor local la aplicación usa: ``dev_appserver.py  --host 0.0.0.0 pymty``.
+* Instalar `Google App Engine SDK`_  para **Python**
+* Dentro de el directorio raíz del repositorio:
+ * Ejecuta el script ``mkenv.sh``. De momento no tenemos una solución automática para windows.
+ * Para ejecutar en el servidor local la aplicación usa: ``dev_appserver.py  --host 0.0.0.0 pymty``.
 
 Estructura general
 ==================
@@ -71,15 +71,15 @@ Para más información de hacia donde va el sitio consulta el directorio ``docs`
 Notas
 =====
 
- * Tristemente usa Python 2.7 por que AppEngine aún no funciona con Python 3.
- * virtualenv es meramente utilizado para facilitar la obtención de dependencias, siempre se puede bajar el módulo directamente y desempaqueta dentro de `pymty`.
- * ``dev_appserver.py`` es parte de el SDK de python para el Google App Engine.
- * La razón de por que no usamos bien distutils, virtualenv y las herramientas estándar de python es por la forma de montar las aplicaciones en AppEngine.
-   Donde básicamente es poner todas tus dependencias en el directorio de la aplicación, ya sea directamente o con una liga simbólica.
- * La aplicación decidí hacerla para AppEngine con el fín de que fuera practicamente gratis con el tráfico esperado y de paso hacerla un poco más interesante.
- * Para ver el directorio de lib de las herramientas de AppEngine ``"$(readlink -f $(dirname $(which  gcloud))/../lib)"``.
+* Tristemente usa Python 2.7 por que AppEngine aún no funciona con Python 3.
+* virtualenv es meramente utilizado para facilitar la obtención de dependencias, siempre se puede bajar el módulo directamente y desempaqueta dentro de `pymty`.
+* ``dev_appserver.py`` es parte de el SDK de python para el Google App Engine.
+* La razón de por que no usamos bien distutils, virtualenv y las herramientas estándar de python es por la forma de montar las aplicaciones en AppEngine.
+  Donde básicamente es poner todas tus dependencias en el directorio de la aplicación, ya sea directamente o con una liga simbólica.
+* La aplicación decidí hacerla para AppEngine con el fín de que fuera practicamente gratis con el tráfico esperado y de paso hacerla un poco más interesante.
+* Para ver el directorio de lib de las herramientas de AppEngine ``"$(readlink -f $(dirname $(which  gcloud))/../lib)"``.
 
-.. _`Google Cloud SDK`: https://cloud.google.com/appengine/downloads
+.. _`Google App Engine SDK`: https://cloud.google.com/appengine/downloads
 .. _Mako: http://www.makotemplates.org/
 .. _CherryPy: http://www.cherrypy.org/
 .. _`recorrido de objetos`: http://docs.cherrypy.org/en/latest/tutorials.html#tutorial-1-a-basic-web-application
