@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#2b5b84">
 % if title:
     <title>${title} - Python Monterrey</title>
 % else:
