@@ -1,4 +1,5 @@
 import os
+import sys
 
 import cherrypy as cp
 
@@ -32,5 +33,7 @@ def mount_app():
 
 def run():
     mount_app()
+    extra_config = sys.argv[1] if len(sys.argv) > 1 else None
+    cp.config.update(cp.lib.reprconf.Config(extra_config))
     cp.engine.start()
     cp.engine.block()
