@@ -3,16 +3,25 @@ let
   python = pkgs.python39;
   projectDir = ./.;
   inherit(pkgs) poetry2nix;
+  overrides = poetry2nix.overrides.withDefaults (
+    self: super: {
+      cheroot = super.cheroot.overridePythonAttrs (
+        old: {
+          buildInputs = (old.buildInputs or  []) ++ [ self.setuptools-scm-git-archive ];
+        }
+      );
+    }
+  );
 in
-with poetry2nix; {
-  app = mkPoetryApplication {
-    inherit python projectDir;
+{
+  app = poetry2nix.mkPoetryApplication {
+    inherit python projectDir overrides;
   };
 
-  env = mkPoetryEnv {
+  env = poetry2nix.mkPoetryEnv {
     editablePackageSources = {
       pymty = ./.;
     };
-    inherit python projectDir;
+    inherit python projectDir overrides;
   };
 }
