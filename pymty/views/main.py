@@ -12,11 +12,6 @@ class Main:
         return {}
 
     @cp.expose
-    @cp.tools.mako(fname="comunidades.mako")
-    def comunidades(self):
-        return {'title': 'Comunidades'}
-
-    @cp.expose
     @cp.tools.mako(fname="contribuir.mako")
     def contribuir(self):
         return {'title': 'Contribuir'}

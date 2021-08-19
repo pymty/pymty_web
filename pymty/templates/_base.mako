@@ -28,7 +28,7 @@
         <header>
           <div id="logo">
             <a href="/" alt="Python Monterrey/ Inicio">
-              <img src="/static/img/logo_pymty.png" alt="Python Monterrey">
+              <img src="/static/img/pymty-logo.svg" alt="Python Monterrey" style="width: 15em">
             </a>
           </div>
           <div class="rmm"  data-menu-title="Men&uacute;" data-menu-style="sapphire" id="menu">
@@ -42,11 +42,6 @@
               <li>
                 <a href="/contribuir">
                   Contribuir
-                </a>
-              </li>
-              <li>
-                <a href="/comunidades">
-                  Comunidades
                 </a>
               </li>
               <li>
@@ -64,12 +59,11 @@
       </div>
       <div id="bottom">
         <footer>
-          <a href="http://wiki.pymty.org/">Wiki</a>
+          <a href="https://www.meetup.com/pythonmty/">Meetup</a>
           <a href="https://www.facebook.com/groups/pymty/">Facebook</a>
           <a href="http://twitter.com/pymty">Twitter</a>
           <a href="http://webchat.freenode.net/?channels=pymty">IRC</a>
           <a href="https://groups.google.com/forum/#!forum/pymty">Google group</a>
-          <a href="https://plus.google.com/communities/118415415344197086748">Google+</a>
           <a href="https://www.python.org/">Sitio oficial de Python</a>
         </footer>
       </div>

@@ -1,7 +1,9 @@
 <%inherit file="_base.mako"/>
 <h2 class="sec-title">Reuniones</h2>
   <div id="meetup" class="block" style="float:left">
-      <iframe width="320" height="350" src="http://meetu.ps/2QKN2Z" frameborder="0"></iframe>
+    <a href="https://www.meetup.com/pythonmty/">
+      <img src="/static/img/meetup-logo.svg" alt="meetup.com" style="width: 300px">
+    </a>
   </div>
 
   <p class="small-padd">

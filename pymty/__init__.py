@@ -10,6 +10,14 @@ from pymty.views.api import API
 local_dir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 
 
+def _direct_static_file(fname):
+    return {
+        f'/{fname}': {
+            'tools.staticfile.on': True,
+            'tools.staticfile.filename': os.path.join(local_dir, 'static', fname)
+        }
+    }
+
 def mount_app():
     main = cp.Application(Main(), config={
         '/': {
@@ -18,7 +26,10 @@ def mount_app():
         '/static': {
             'tools.staticdir.on': True,
             'tools.staticdir.dir': os.path.join(local_dir, 'static')
-        }
+        },
+        **_direct_static_file('favicon.ico'),
+        **_direct_static_file('robots.txt'),
+        **_direct_static_file('humans.txt')
     })
     api = cp.Application(API(), '/api', config={
         '/': {
