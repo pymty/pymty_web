@@ -1,7 +1,7 @@
 import cherrypy as cp
 
 
-class API(object):
+class API:
     exposed = True
 
     def GET(self):
