@@ -40,15 +40,13 @@
                 <a href="/documentacion">Documentación</a>
               </li>
               <li>
-                <a href="/contribuir">
-                  Contribuir
-                </a>
+                <a href="/contribuir">Contribuir</a>
               </li>
               <li>
                 <a href="/trabajos">Bolsa de trabajo</a>
               </li>
               <li>
-                <a href="http://blog.pymty.org/" target="_blank"> Blog </a>
+                <a href="https://blog.pymty.org/" target="_blank"> Blog </a>
               </li>
             </ul>
           </div>
@@ -61,8 +59,9 @@
         <footer>
           <a href="https://www.meetup.com/pythonmty/">Meetup</a>
           <a href="https://www.facebook.com/groups/pymty/">Facebook</a>
-          <a href="http://twitter.com/pymty">Twitter</a>
-          <a href="http://webchat.freenode.net/?channels=pymty">IRC</a>
+          <a href="https://twitter.com/pymty">Twitter</a>
+          <a href="https://www.linkedin.com/groups/6800401">LinkedIn</a>
+          <a href="https://t.me/pymty">Telegram</a>
           <a href="https://groups.google.com/forum/#!forum/pymty">Google group</a>
           <a href="https://www.python.org/">Sitio oficial de Python</a>
         </footer>

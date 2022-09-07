@@ -49,12 +49,3 @@
   para esta página ve a la sección de <a href="/contribuir">contribuir</a> para
   revisar los detalles.
 </div>
-
-<div class="block">
-  <h3>Comunidades</h3>
-  Somos parte de una nueva comunidad tecnologíca que emerge
-  en la ciudad. Revisa la sección  de <a href="/comunidades">Comunidades</a>
-  para ver los detalles de otras comunidades similares a está
-  pero con especialidades distintas. ¿Conoces alguna que no esté?
-  No dudes en informarnos en la  <a href="https://groups.google.com/forum/#!forum/pymty">lista de correos</a>.
-</div>
