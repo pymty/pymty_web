@@ -7,7 +7,7 @@ authors = ["Joel Rivera"]
 [tool.poetry.dependencies]
 python = "^3.8"
 CherryPy = "^18.6.1"
-Mako = "^1.1.4"
+Mako = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"
